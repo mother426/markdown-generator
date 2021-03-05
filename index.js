@@ -45,8 +45,17 @@ inquirer.prompt([ {
     message: "What is your email address?",
     name: 'userEmail',
 },
+{
+    type: 'list',
+    message: "Which license would you like to apply to the markdown of this project?",
+    name: 'license',
+    choices: [
+        "MIT",
+        "ISC",
+    ]
+},
 ])
-.then((answers) =>
+.then(answers =>
     fs.writeFile('test.md', generateReadme(answers), function(err){
         if (err) return console.log(err);
     })

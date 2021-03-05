@@ -20,7 +20,7 @@ function generateMarkdown(answers) {
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions(#questions)
+- [Questions](#questions)
 
 ## Description 
 ${answers.projectDesc}
@@ -41,6 +41,9 @@ ${answers.projectTests}
 
 For any questions about this project, you can email me at ${answers.userEmail}
 You can also look through the project repository yourself on [My Github page](https://github.com/${answers.gitUsername}).
+
+[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license})
+
 
 `;
 }
