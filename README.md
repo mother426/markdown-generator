@@ -19,4 +19,4 @@ At the end of the command line questionnaire, a markdown file named 'README.md' 
 
 Here is a short GIF demonstrating how this program is used. 
 
-![Demo GIF](/assets/markdowndemo.gif)
+![Demo GIF](/assets/markdowngendemo.gif)
