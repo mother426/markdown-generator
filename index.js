@@ -27,7 +27,7 @@ inquirer.prompt([ {
 },
 {
     type: 'input',
-    message: "Contributors to this project?",
+    message: "Guidelines for contributing to this project?",
     name: 'contributors',
 },
 {
@@ -52,11 +52,12 @@ inquirer.prompt([ {
     choices: [
         "MIT",
         "ISC",
+        "Zlib",
     ]
 },
 ])
 .then(answers =>
-    fs.writeFile('test.md', generateReadme(answers), function(err){
+    fs.writeFile('./utils/README.md', generateReadme(answers), function(err){
         if (err) return console.log(err);
     })
   );

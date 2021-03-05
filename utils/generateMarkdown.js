@@ -14,13 +14,16 @@
 function generateMarkdown(answers) {
   return `# ${answers.projectTitle}
 
+  [![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license})
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions](#questions)
+- [License](#license)
+- [Issues](#issues)
 
 ## Description 
 ${answers.projectDesc}
@@ -37,13 +40,13 @@ ${answers.contributors}
 ## Tests 
 ${answers.projectTests}
 
-## Questions
+## License 
+This application is covered under the ${answers.license} license. 
 
-For any questions about this project, you can email me at ${answers.userEmail}
+## Issues
+
+If you would like to report any issues or have any other general questions, you can email me at ${answers.userEmail}
 You can also look through the project repository yourself on [My Github page](https://github.com/${answers.gitUsername}).
-
-[![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)](https://opensource.org/licenses/${answers.license})
-
 
 `;
 }
