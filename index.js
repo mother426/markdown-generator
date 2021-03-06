@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateMarkdown")
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 
 inquirer.prompt([ {
     type: 'input',
