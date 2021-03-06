@@ -1,6 +1,6 @@
 # Command Line Markdown Generator
 
-This project is a javascript program that prompts users from the command line in the VSCode terminal, and uses the user inputs to generate a markdown file.
+This project is a JavaScript program that prompts users from the command line in the VSCode terminal and uses the user inputs to generate a markdown file.
 
  This program requires Node.js, if you do not have Node.js installed you can download it [here](https://nodejs.org/en/). To use this program, you can fork this repository to your github account using the "Fork" button located towards the top-right of this repository.
 
