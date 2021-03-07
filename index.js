@@ -4,7 +4,6 @@ const inquirer = require("inquirer");
 const generateReadme = require("./utils/generateMarkdown")
 
 // Array of questions for user input
-
 inquirer.prompt([ {
     type: 'input',
     message: "What is the title of your project?",
@@ -61,12 +60,3 @@ inquirer.prompt([ {
         if (err) return console.log(err);
     })
   );
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
